@@ -15,10 +15,12 @@
 Create new run task with VM option -Dspark.master=local[*]
 
 ### Run in spark-submit
-```spark-submit \
+``` 
+spark-submit \
    --class spark.pi.app.Cass \
    --master "local[*]" \
-   ./build/libs/spark-app.jar \``` 
+   ./build/libs/spark-app.jar \ 
+``` 
 
 
 
